@@ -24,7 +24,7 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],)
 
-client = motor.motor_asyncio.AsyncIOMotorClient("mongodb+srv://https://cloud.mongodb.com/v2#/clusters.mongodb.net/?retryWrites=true&w=majority",tls=True, tlsAllowInvalidCertificates=True)
+client = motor.motor_asyncio.AsyncIOMotorClient("mongodb+srv://paulsmasher777:Evadneybaroo1@cluster0.r9znpc2.mongodb.net/?retryWrites=true&w=majority",tls=True, tlsAllowInvalidCertificates=True)
 
 db = client.autofill_tank_system
 
